@@ -6,3 +6,9 @@ build_*
 .DS_Store
 _dist-default-build
 _dist-DEBUG
+
+# CMake files and install directory
+cmake/CMakeCache.txt
+cmake/CMakeFiles/
+cmake/FortranCInterface.hpp
+install/
