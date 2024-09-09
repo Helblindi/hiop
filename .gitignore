@@ -1,5 +1,6 @@
 # Ignore files that are generated from the repository sources
 build
+install
 build_*
 .vscode
 .DS_Store
