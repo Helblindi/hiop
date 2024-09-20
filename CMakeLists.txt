@@ -306,7 +306,7 @@ if(HIOP_SPARSE)
   endif(NOT TARGET METIS)
 
   if(HIOP_USE_COINHSL)
-    set(HIOP_COINHSL_DIR "../coinhsl/install" CACHE PATH "Path to COINHSL directory")
+    set(HIOP_COINHSL_DIR "../coinhsl" CACHE PATH "Path to COINHSL directory")
     include(FindHiopCOINHSL)
     if(COINHSL_LIBRARY AND METIS_LIBRARY)
       target_link_libraries(hiop_tpl INTERFACE METIS)
